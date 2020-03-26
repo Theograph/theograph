@@ -1,0 +1,457 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+
+body {
+  background-color: #222222;
+  padding-left: 3.38vw;
+  padding-right: 3.38vw;
+}
+
+a {
+text-decoration: none;
+}
+
+p{ 
+  font-family: "Share Tech" , sans-serif;
+  color: #FFF;
+}
+
+header{
+  margin: 10vh auto;
+}
+
+.social {
+top:0;
+margin-right: 2vw ;
+position : absolute;
+right:0;
+}
+.social p {
+padding-left: 20px;
+}
+
+h1 {
+
+  color: #fff;
+  font-size: 10vw;
+  font-family: "Share Tech" , sans-serif;
+  text-transform: uppercase;
+  /*Create overlap*/
+  
+  margin: 0;
+  line-height: 0;
+  /*Animation*/
+  
+  animation: glitch1 2.5s infinite;
+}
+
+h1:nth-child(2) {
+  color: #67f3da;
+  animation: glitch2 2.5s infinite;
+}
+
+h1:nth-child(3) {
+  color: #f16f6f;
+  animation: glitch3 2.5s infinite;
+}
+/*Keyframes*/
+
+@keyframes glitch1 {
+  0% {
+    transform: none;
+    opacity: 1;
+  }
+  7% {
+    transform: skew(-0.5deg, -0.9deg);
+    opacity: 0.75;
+  }
+  10% {
+    transform: none;
+    opacity: 1;
+  }
+  27% {
+    transform: none;
+    opacity: 1;
+  }
+  30% {
+    transform: skew(0.8deg, -0.1deg);
+    opacity: 0.75;
+  }
+  35% {
+    transform: none;
+    opacity: 1;
+  }
+  52% {
+    transform: none;
+    opacity: 1;
+  }
+  55% {
+    transform: skew(-1deg, 0.2deg);
+    opacity: 0.75;
+  }
+  50% {
+    transform: none;
+    opacity: 1;
+  }
+  72% {
+    transform: none;
+    opacity: 1;
+  }
+  75% {
+    transform: skew(0.4deg, 1deg);
+    opacity: 0.75;
+  }
+  80% {
+    transform: none;
+    opacity: 1;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes glitch2 {
+  0% {
+    transform: none;
+    opacity: 0.25;
+  }
+  7% {
+    transform: translate(-2px, -3px);
+    opacity: 0.5;
+  }
+  10% {
+    transform: none;
+    opacity: 0.25;
+  }
+  27% {
+    transform: none;
+    opacity: 0.25;
+  }
+  30% {
+    transform: translate(-5px, -2px);
+    opacity: 0.5;
+  }
+  35% {
+    transform: none;
+    opacity: 0.25;
+  }
+  52% {
+    transform: none;
+    opacity: 0.25;
+  }
+  55% {
+    transform: translate(-5px, -1px);
+    opacity: 0.5;
+  }
+  50% {
+    transform: none;
+    opacity: 0.25;
+  }
+  72% {
+    transform: none;
+    opacity: 0.25;
+  }
+  75% {
+    transform: translate(-2px, -6px);
+    opacity: 0.5;
+  }
+  80% {
+    transform: none;
+    opacity: 0.25;
+  }
+  100% {
+    transform: none;
+    opacity: 0.25;
+  }
+}
+
+@keyframes glitch3 {
+  0% {
+    transform: none;
+    opacity: 0.25;
+  }
+  7% {
+    transform: translate(2px, 3px);
+    opacity: 0.5;
+  }
+  10% {
+    transform: none;
+    opacity: 0.25;
+  }
+  27% {
+    transform: none;
+    opacity: 0.25;
+  }
+  30% {
+    transform: translate(5px, 2px);
+    opacity: 0.5;
+  }
+  35% {
+    transform: none;
+    opacity: 0.25;
+  }
+  52% {
+    transform: none;
+    opacity: 0.25;
+  }
+  55% {
+    transform: translate(5px, 1px);
+    opacity: 0.5;
+  }
+  50% {
+    transform: none;
+    opacity: 0.25;
+  }
+  72% {
+    transform: none;
+    opacity: 0.25;
+  }
+  75% {
+    transform: translate(2px, 6px);
+    opacity: 0.5;
+  }
+  80% {
+    transform: none;
+    opacity: 0.25;
+  }
+  100% {
+    transform: none;
+    opacity: 0.25;
+  }
+}
+
+
+
+.truc1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.intro {
+  position: relative, center;
+  width: 90vw;
+  padding-bottom: 2vw;
+}
+
+.intro p {
+font-size: 1.5vw;
+}
+
+
+.fond {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, .50);
+  padding:2vw;
+  position: relative;
+
+}
+.fond a {
+color: #FFF;
+}
+
+
+
+.truc2 {
+background-color: rgba(0, 0, 0, .50);
+z-index: -3;
+display: flex;
+justify-content: space-around;
+width: 100%;
+margin-top: 2vw;
+margin-bottom: 2vw;
+background-position: center;
+}
+
+.parkour {
+align-items: center;
+}
+
+.parkour p { 
+padding-left: 20px ;
+}
+
+
+
+
+.truc3 {
+position : center;
+width: 90vw;
+padding-top: 2vw;
+padding-bottom: 2vw;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: space-around;
+}
+.truc3a {
+  display: flex;
+  flex-direction : row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.truc3a img {
+  max-width: 40%;
+  height:auto;
+}
+
+.truc4 {
+padding-top: 2vw;
+padding-bottom: 2vw;
+display: flex;
+flex-direction : row;
+flex-wrap: nowrap;
+justify-content: center;
+}
+.truc4 img{
+  max-width: 40%;
+}
+
+.truc5 {
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  }
+  
+
+.explain p {
+  font-size: 1.25vw;
+}
+
+.faceid p {
+  padding-left: 20px;
+}
+.overlay-image {
+position: relative;
+width: 100%;
+}
+/* Image originale */
+.overlay-image .youtube {
+width: 80vw;
+left:0;
+}
+
+
+/* Texte original */
+.overlay-image .text {
+font-family: "Share Tech" , sans-serif;
+  font-size: 100px;
+  color: #FFF;
+line-height: 1.5em;
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 100%;
+}
+.overlay-image .hover {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+}
+/* Apparition overlay sur passage souris */
+.overlay-image:hover .hover {
+opacity: 1;
+}
+.overlay-image .normal {
+transition: .5s ease;
+}
+.overlay-image:hover .normal {
+opacity: 0;
+}
+.overlay-image .hover {
+background-color: rgba(0,0,0,0.5);
+}
+
+
+
+.glitch {
+  position: relative;
+  text-decoration: none;
+  font-size: 3rem;
+  color: #DDD;
+  user-select: none;
+  }
+  .glitch:hover:before {
+  animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+  padding-left: 20px ;
+  }
+  .glitch:hover:after {
+  animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+  padding-left: 20px ;
+  }
+  .glitch:before, .glitch:after {
+  content: attr(data-hover);
+  position: absolute;
+  padding-left: 20px ;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+  }
+  .glitch:before {
+  z-index: -2;
+  color: #67f3da;
+  }
+  .glitch:after {
+  z-index: -1;
+  color: #f16f6f;
+  }
+  
+  @keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-5px, 5px);
+  }
+  40% {
+    transform: translate(-5px, -5px);
+  }
+  60% {
+    transform: translate(5px, 5px);
+  }
+  80% {
+    transform: translate(5px, -5px);
+  }
+  to {
+    transform: translate(0);
+  }
+  }
+  @media only screen and (max-width: 400px) {
+  .glitch {
+    font-size: 3em;
+  }
+  }
+  @keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-5px, 5px);
+  }
+  40% {
+    transform: translate(-5px, -5px);
+  }
+  60% {
+    transform: translate(5px, 5px);
+  }
+  80% {
+    transform: translate(5px, -5px);
+  }
+  to {
+    transform: translate(0);
+  }
+  }
+  
